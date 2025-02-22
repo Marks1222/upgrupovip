@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grupo VIP</title>
+    <title>Oferta Exclusiva: Grupo VIP</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,94 +11,106 @@
             color: #333;
             margin: 0;
             padding: 0;
+            text-align: center;
         }
         header {
-            background-color: #007BFF;
+            background-color: #28a745;
             color: white;
             padding: 20px;
-            text-align: center;
         }
-        .benefits {
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
             padding: 20px;
-            text-align: center;
         }
-        .benefits ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .benefits li {
-            background-color: #fff;
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .signup-form {
-            background-color: #fff;
+        .offer {
+            background-color: white;
             padding: 20px;
             margin: 20px auto;
-            width: 300px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .signup-form input {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        .offer h2 {
+            color: #28a745;
+            font-size: 2em;
         }
-        .signup-form button {
-            width: 100%;
-            padding: 10px;
-            background-color: #007BFF;
+        .offer p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .price {
+            font-size: 2.5em;
+            color: #dc3545;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .price small {
+            font-size: 0.5em;
+            color: #333;
+        }
+        .cta-button {
+            background-color: #dc3545;
             color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin: 10px;
+            text-decoration: none;
+            display: inline-block;
         }
-        .signup-form button:hover {
-            background-color: #0056b3;
+        .cta-button:hover {
+            background-color: #c82333;
+        }
+        .guarantee {
+            font-size: 1.1em;
+            color: #555;
+            margin-top: 20px;
         }
         footer {
-            background-color: #007BFF;
+            background-color: #333;
             color: white;
-            text-align: center;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Grupo VIP</h1>
-        <p>Exclusivo para membros especiais</p>
+        <h1>Oferta Exclusiva para Você!</h1>
+        <p>Quem comprou nosso programa de rotinas de chás exclusivas tem uma oportunidade única!</p>
     </header>
 
-    <section class="benefits">
-        <h2>Benefícios do Grupo VIP</h2>
-        <ul>
-            <li>Acesso exclusivo a conteúdos premium</li>
-            <li>Descontos especiais em produtos e serviços</li>
-            <li>Suporte prioritário</li>
-            <li>Eventos exclusivos para membros</li>
-        </ul>
-    </section>
-
-    <div class="signup-form">
-        <h2>Inscreva-se Agora!</h2>
-        <form action="#" method="post">
-            <input type="text" name="name" placeholder="Seu Nome" required>
-            <input type="email" name="email" placeholder="Seu Email" required>
-            <button type="submit">Entrar para o Grupo VIP</button>
-        </form>
+    <div class="container">
+        <div class="offer">
+            <h2>Grupo VIP + Acompanhamento Completo</h2>
+            <p>
+                Agora você pode ter <strong>acesso vitalício</strong> ao nosso Grupo VIP, com:
+            </p>
+            <ul style="text-align: left; margin: 20px auto; max-width: 400px;">
+                <li>✅ Acompanhamento de uma <strong>nutricionista</strong> para tirar todas as suas dúvidas sobre o programa de chás.</li>
+                <li>✅ <strong>Personal Trainer Exclusivo</strong> com treinos personalizados do iniciante ao avançado.</li>
+                <li>✅ Tudo isso para <strong>acelerar seus resultados</strong> e garantir sua satisfação!</li>
+            </ul>
+            <div class="price">
+                De <s>R$ 297,00</s> por apenas <br>
+                R$ 29,90
+            </div>
+            <p class="guarantee">
+                ⚠️ Esta é a única vez que você verá essa oferta. Não perca!
+            </p>
+            <a href="#link-do-pagamento" class="cta-button">QUERO APROVEITAR!</a>
+            <a href="#link-do-pagamento" class="cta-button">QUERO APROVEITAR!</a>
+        </div>
     </div>
 
     <footer>
-        <p>&copy; 2023 Grupo VIP. Todos os direitos reservados.</p>
+        <p>© 2023 Programa de Chás Exclusivas. Todos os direitos reservados.</p>
     </footer>
 
 </body>
