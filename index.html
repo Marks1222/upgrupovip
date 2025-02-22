@@ -3,53 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oferta Exclusiva: Grupo VIP</title>
+    <title>Grupo VIP - Acompanhamento Completo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
             margin: 0;
             padding: 0;
-            text-align: center;
+            background-color: #f9f9f9;
+            color: #333;
         }
         header {
             background-color: #28a745;
             color: white;
             padding: 20px;
+            text-align: center;
         }
-        h1 {
+        header h1 {
             margin: 0;
             font-size: 2.5em;
         }
+        header p {
+            font-size: 1.2em;
+        }
         .container {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
         }
-        .offer {
+        .section {
             background-color: white;
             padding: 20px;
-            margin: 20px auto;
-            max-width: 600px;
+            margin: 20px 0;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .offer h2 {
+        .section h2 {
             color: #28a745;
             font-size: 2em;
+            margin-bottom: 20px;
         }
-        .offer p {
-            font-size: 1.2em;
+        .section p {
+            font-size: 1.1em;
             line-height: 1.6;
         }
-        .price {
-            font-size: 2.5em;
-            color: #dc3545;
-            font-weight: bold;
-            margin: 20px 0;
+        .benefits ul {
+            list-style-type: none;
+            padding: 0;
         }
-        .price small {
-            font-size: 0.5em;
-            color: #333;
+        .benefits li {
+            background-color: #f1f1f1;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 1.1em;
         }
         .cta-button {
             background-color: #dc3545;
@@ -59,22 +65,39 @@
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            margin: 10px;
             text-decoration: none;
             display: inline-block;
+            margin: 10px 0;
         }
         .cta-button:hover {
             background-color: #c82333;
         }
-        .guarantee {
-            font-size: 1.1em;
-            color: #555;
-            margin-top: 20px;
+        .testimonials {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .testimonial {
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+        }
+        .testimonial img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+        }
+        .testimonial p {
+            font-style: italic;
         }
         footer {
             background-color: #333;
             color: white;
-            padding: 10px;
+            text-align: center;
+            padding: 20px;
             margin-top: 20px;
         }
     </style>
@@ -82,29 +105,60 @@
 <body>
 
     <header>
-        <h1>Oferta Exclusiva para Você!</h1>
-        <p>Quem comprou nosso programa de rotinas de chás exclusivas tem uma oportunidade única!</p>
+        <h1>Grupo VIP - Acompanhamento Completo</h1>
+        <p>Uma oferta exclusiva para quem quer acelerar seus resultados!</p>
     </header>
 
     <div class="container">
-        <div class="offer">
-            <h2>Grupo VIP + Acompanhamento Completo</h2>
+        <!-- Seção de Introdução -->
+        <div class="section">
+            <h2>Por que entrar para o Grupo VIP?</h2>
             <p>
-                Agora você pode ter <strong>acesso vitalício</strong> ao nosso Grupo VIP, com:
-            </p>
-            <ul style="text-align: left; margin: 20px auto; max-width: 400px;">
-                <li>✅ Acompanhamento de uma <strong>nutricionista</strong> para tirar todas as suas dúvidas sobre o programa de chás.</li>
-                <li>✅ <strong>Personal Trainer Exclusivo</strong> com treinos personalizados do iniciante ao avançado.</li>
-                <li>✅ Tudo isso para <strong>acelerar seus resultados</strong> e garantir sua satisfação!</li>
-            </ul>
-            <div class="price">
-                De <s>R$ 297,00</s> por apenas <br>
-                R$ 29,90
-            </div>
-            <p class="guarantee">
-                ⚠️ Esta é a única vez que você verá essa oferta. Não perca!
+                Se você já adquiriu nosso programa de rotinas de chás exclusivas, agora tem a oportunidade de potencializar seus resultados com o <strong>Grupo VIP</strong>. Com acompanhamento de uma nutricionista e um personal trainer exclusivo, você terá todo o suporte necessário para alcançar seus objetivos de forma rápida e eficiente.
             </p>
             <a href="#link-do-pagamento" class="cta-button">QUERO APROVEITAR!</a>
+        </div>
+
+        <!-- Seção de Benefícios -->
+        <div class="section benefits">
+            <h2>O que você vai ganhar?</h2>
+            <ul>
+                <li>✅ Acompanhamento com uma <strong>nutricionista</strong> para tirar todas as suas dúvidas sobre o programa de chás.</li>
+                <li>✅ <strong>Personal Trainer Exclusivo</strong> com treinos personalizados do iniciante ao avançado.</li>
+                <li>✅ Acesso vitalício ao Grupo VIP.</li>
+                <li>✅ Suporte completo para acelerar seus resultados.</li>
+                <li>✅ Comunidade exclusiva para troca de experiências.</li>
+            </ul>
+        </div>
+
+        <!-- Seção de Depoimentos -->
+        <div class="section">
+            <h2>O que estão falando do Grupo VIP?</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="https://via.placeholder.com/80" alt="Depoimento 1">
+                    <p>"O Grupo VIP mudou minha vida! Os treinos personalizados e o suporte da nutricionista fizeram toda a diferença."</p>
+                    <strong>Ana Silva</strong>
+                </div>
+                <div class="testimonial">
+                    <img src="https://via.placeholder.com/80" alt="Depoimento 2">
+                    <p>"Acompanhamento de primeira! Recomendo para todos que querem resultados reais."</p>
+                    <strong>Carlos Souza</strong>
+                </div>
+                <div class="testimonial">
+                    <img src="https://via.placeholder.com/80" alt="Depoimento 3">
+                    <p>"A melhor decisão que tomei! O Grupo VIP superou minhas expectativas."</p>
+                    <strong>Mariana Costa</strong>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Oferta -->
+        <div class="section">
+            <h2>Não perca essa oferta exclusiva!</h2>
+            <p>
+                De <s>R$ 297,00</s> por apenas <strong>R$ 29,90</strong>. Essa é a única vez que você verá essa oferta. Garanta já seu acesso ao Grupo VIP e comece a transformar sua vida hoje mesmo!
+            </p>
             <a href="#link-do-pagamento" class="cta-button">QUERO APROVEITAR!</a>
         </div>
     </div>
