@@ -59,8 +59,9 @@
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
-            display: inline-block;
-            margin: 20px 0;
+            display: block;
+            margin: 20px auto;
+            width: fit-content;
         }
         .cta-button:hover {
             background-color: #c82333;
@@ -83,6 +84,26 @@
             border-radius: 5px;
             font-size: 1.1em;
         }
+
+        /* Responsividade para celulares */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+            header p {
+                font-size: 1em;
+            }
+            .section h2 {
+                font-size: 1.5em;
+            }
+            .section p {
+                font-size: 1em;
+            }
+            .cta-button {
+                font-size: 1em;
+                padding: 10px 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -102,32 +123,24 @@
             <p>
                 E aqui vai um presente exclusivo: você agora tem a chance de fazer parte do nosso <strong>Grupo VIP no WhatsApp</strong>! 💬🔥
             </p>
-            <a href="#link-do-pagamento" class="cta-button">QUERO ENTRAR NO GRUPO VIP!</a>
         </div>
 
-        <!-- Seção de Novidade Exclusiva -->
+        <!-- Seção de Benefícios -->
         <div class="section">
-            <h2>Tenho uma novidade EXCLUSIVA para você! 🔥</h2>
+            <h2>O que você ganha no Grupo VIP?</h2>
             <p>
-                Hoje, você tem a chance de garantir acesso ao nosso <strong>Grupo VIP no WhatsApp</strong>, onde receberá suporte 24h da nossa nutricionista Fernanda e da Gabriela! 🎁✨
-            </p>
-            <p>
-                No grupo, você terá acesso a:
+                No nosso grupo VIP, você terá acesso a:
             </p>
             <ul style="text-align: left; max-width: 600px; margin: 0 auto;">
                 <li>✅ Conteúdos exclusivos e receitas personalizadas.</li>
                 <li>✅ Acompanhamento diário para acelerar seus resultados.</li>
                 <li>✅ Suporte completo para transformar seu corpo de forma eficiente.</li>
             </ul>
-            <p>
-                <strong>Somente agora, aqui nesta página, ao fechar, você perderá essa oportunidade única e limitada para sempre!</strong> Não deixe escapar o que pode transformar sua jornada! 💚
-            </p>
-            <a href="#link-do-pagamento" class="cta-button">QUERO ENTRAR NO GRUPO VIP!</a>
         </div>
 
         <!-- Seção de Valor -->
         <div class="section">
-            <h2>Só por hoje!</h2>
+            <h2>SÓ POR HOJE!</h2>
             <p>
                 Por apenas <strong>5x de R$ 5,98</strong> ou <strong>R$ 29,90 à vista</strong>.
             </p>
